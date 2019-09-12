@@ -1,0 +1,36 @@
+
+1.
+
+function Geimskip(name,speed) {
+	this.name = name;
+	this.speed = speed;
+	this.life = 10;
+}
+
+Geimskip.prototype.fly = function() {
+	this.speed += 1;
+}
+
+let serenity = new Geimskip("Serenity",5);
+let falcon = new Geimskip("Millenium Falcon",12);
+let rogue = new Geimskip("Rogue Shadow",9);
+
+
+
+2.
+
+class Geimskip() {
+
+	constructor(name,speed) {
+		this.name = name;
+		this.speed = speed;
+	}
+
+	fly() {
+		this.speed += 1;
+	}
+}
+
+let sanctuary = new Geimskip("Sanctuary",3);
+let aphelion = new Geimskip("Aphelion",10);
+let dreadnaught = new Geimskip("Dreadnaught",7);
