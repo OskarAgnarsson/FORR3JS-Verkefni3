@@ -20,7 +20,7 @@ Geimskip.prototype.fly = function() {
 
 class Geimskip() {
 
-	constructor(name,speed) {
+	constructor(speed) {
 		this.speed = speed;
 		this.life = 10;
 	}
