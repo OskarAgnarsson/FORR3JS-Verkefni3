@@ -7,13 +7,13 @@ function Geimskip(name,speed) {
 	this.life = 10;
 }
 
-Geimskip.prototype.fly = function() {
-	this.speed += 1;
-}
-
 let serenity = new Geimskip("Serenity",5);
 let falcon = new Geimskip("Millenium Falcon",12);
 let rogue = new Geimskip("Rogue Shadow",9);
+
+Geimskip.prototype.fly = function() {
+	this.speed += 1;
+}
 
 
 
