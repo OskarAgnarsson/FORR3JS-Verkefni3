@@ -1,15 +1,14 @@
 
 1.
 
-function Geimskip(name,speed) {
-	this.name = name;
+function Geimskip(speed) {
 	this.speed = speed;
 	this.life = 10;
 }
 
-let serenity = new Geimskip("Serenity",5);
-let falcon = new Geimskip("Millenium Falcon",12);
-let rogue = new Geimskip("Rogue Shadow",9);
+let serenity = new Geimskip(5);
+let falcon = new Geimskip(12);
+let rogue = new Geimskip(9);
 
 Geimskip.prototype.fly = function() {
 	this.speed += 1;
@@ -22,8 +21,8 @@ Geimskip.prototype.fly = function() {
 class Geimskip() {
 
 	constructor(name,speed) {
-		this.name = name;
 		this.speed = speed;
+		this.life = 10;
 	}
 
 	fly() {
@@ -31,6 +30,6 @@ class Geimskip() {
 	}
 }
 
-let sanctuary = new Geimskip("Sanctuary",3);
-let aphelion = new Geimskip("Aphelion",10);
-let dreadnaught = new Geimskip("Dreadnaught",7);
+let sanctuary = new Geimskip(3);
+let aphelion = new Geimskip(10);
+let dreadnaught = new Geimskip(7);
